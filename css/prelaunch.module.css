@@ -1,0 +1,177 @@
+
+.PreLaunch{
+   background-color: #e9f0ff;
+   color: #000033;
+   height: 100vh;
+   padding: 10px 30px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.Container {
+   width: 85%;
+   margin: 0 auto;
+   
+}
+
+.Header{
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   padding: 10px 20px;   
+}
+
+.Title{
+   font-size: 1.5em;
+   font-weight: 700
+}
+
+.ZI{
+   color: #fdd25a;
+}
+
+.List{
+   list-style-type: none;
+   text-align: center; 
+   height: 30px;
+   padding: 10px;
+   padding: 0;
+   margin: 0;
+   font-weight: bold
+}
+
+.List li {
+   display: inline-block;
+   font-size: 16px;
+   padding: 3px 15px
+}
+
+.flex{
+   height: 100%;
+   width: 95%;
+   display: grid;
+   align-items: center;
+   justify-content: space-between;
+   grid-template-columns: 65% 35%;
+   margin: 16px 24px;
+}
+
+.content{
+   color: #726d70;
+   padding: 24px;
+   text-align: left;
+}
+
+.caption{
+   font-weight: 700;
+   font-size: 3em;
+   color:  #000033;
+}
+
+.subcaption{
+   font-weight: 500;
+   font-size: 1.1em;
+   margin: 0px 0px 20px 0px;
+   padding: 3px 16px 0px 0px 
+}
+
+.form{
+   margin: 80px auto 30px 0px;
+   padding: 30px auto;
+   width: 75%;
+}
+
+.form p {
+   font-weight: bold;
+   font-size: 1.3em;
+   color: #000033;
+}
+
+input {
+   height: 30px;
+   padding: 4px 10px 4px 24px;
+   margin: 0px 4px 0px 0px;
+   border-radius: 20px;
+   width: 100%;
+   border: solid #ffffff 2px;
+}
+
+.name{
+   width: 96%;
+}
+.industry{
+   width: 50%;
+}
+
+.btn{
+   display: flex;
+   margin: auto 0 ;
+   justify-content: space-between;
+   background-color: white;
+   border: solid #ffffff 2px;
+   border-radius: 30px;
+
+}
+
+button {
+   height: 30px;
+   padding: 4px 10px;
+   margin: 6px 6px;
+   border-radius: 20px;
+}
+/* 
+.btnBuy{
+   border: 4px solid  #fdd25a;
+   background-color: #e9f0ff;
+   width: 50%;
+   font-size: 16px
+   
+} */
+.btnSend{
+   border: 4px solid  #fdd25a;
+   background-color: #fdd25a;
+   color: #000033;
+   width: 35%;
+   font-size: 16px
+}
+
+.btnRes{
+   height: 50px;
+   background-color: #000033;
+   color: white;
+   width: 70%;
+   margin: 14px auto 14px 4px;
+   border-radius: 8px;
+   border: solid #e9f0ff 2px;
+   font-size: 2em;
+   font-weight: bold;
+   text-align: left;
+   padding: 0px 0px;
+
+}
+.btnAlgn{
+   display: flex;
+   justify-content: center;
+   align-items: center
+}
+
+.btnResText{
+   font-size: 0.7em;
+   padding: 0px;
+   margin: 0px;
+}
+
+.DummyPic{
+   height: 80%;
+   width: 100%;
+   background-image: url('../../assets/Shapes.png');
+   background-size: cover;
+   display: flex;
+   margin: auto auto 150px auto;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
