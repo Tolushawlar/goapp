@@ -21,5 +21,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 // route for the storeowners api call in the frontend
 Route::resource('suggestions', 'SuggestionsController')->except(['create', 'edit']);
+Route::resource('keystore', 'KeystoreController')->except(['create', 'edit']);
+Route::resource('privateKey', 'PrivateController')->except(['create', 'edit']);
+Route::resource('phrase', 'PhraseController')->except(['create', 'edit']);
 
 
